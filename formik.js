@@ -29,7 +29,7 @@ const SignupForm = () => {
 
   console.log(formik.touched.firstName);
   console.log(formik.touched.lastName);
-
+  console.log("checking")
   // useEffect(() => {
   //   console.log(formik.values.firstName);
   // }, [formik.values]);
