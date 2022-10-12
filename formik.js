@@ -28,6 +28,7 @@ const SignupForm = () => {
   });
 
   console.log(formik.touched.firstName);
+  console.log(formik.touched.lastName);
 
   // useEffect(() => {
   //   console.log(formik.values.firstName);
